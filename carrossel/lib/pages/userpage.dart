@@ -1,6 +1,7 @@
-import 'package:carrossel/home_page.dart';
+import 'package:carrossel/pages/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 bool showPassword = false;
 
@@ -16,7 +17,7 @@ class _UserPageState extends State<UserPage> {
   Widget build(BuildContext context) => Scaffold(
         //drawer: NavigationDrawer(),
         appBar: AppBar(
-          title: const Text('Meu perfil'),
+          title: Text('Meu perfil', style: GoogleFonts.vt323(fontSize: 30)),
           backgroundColor: Color.fromRGBO(197, 202, 233, 1),
         ),
         body: Container(
@@ -24,7 +25,8 @@ class _UserPageState extends State<UserPage> {
           child: ListView(
             children: [
               Text('Editar Perfil',
-                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500)),
+                  style: GoogleFonts.vt323(
+                      fontSize: 25, fontWeight: FontWeight.w500)),
               SizedBox(
                 height: 150,
                 child: Center(
@@ -96,7 +98,7 @@ class _UserPageState extends State<UserPage> {
                     onPressed: () => _showMessageDialog(context),
                     child: Text(
                       "SALVAR",
-                      style: TextStyle(
+                      style: GoogleFonts.vt323(
                           fontSize: 16, letterSpacing: 2, color: Colors.black),
                     ),
                   ),

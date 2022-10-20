@@ -1,11 +1,8 @@
 import 'dart:js_util';
-
-import 'package:carrossel/adocoes.dart';
-import 'package:carrossel/slide_tile.dart';
-import 'package:carrossel/userpage.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:carrossel/pages/adocoes.dart';
+import 'package:carrossel/pages/slide_tile.dart';
+import 'package:carrossel/pages/userpage.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -50,12 +47,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
+        title: Text(
           'TinPet',
-          style: TextStyle(
-            fontSize: 30,
-            fontFamily: 'Raleway',
-          ),
+          style: GoogleFonts.vt323(fontSize: 30, color: Colors.white),
         ),
         centerTitle: true,
         backgroundColor: Colors.indigo.shade100,
@@ -150,7 +144,7 @@ Widget buildHeader(BuildContext context) => Material(
             bottom: 24,
           ),
           child: Row(
-            children: const [
+            children: [
               CircleAvatar(
                 radius: 36,
                 backgroundImage: AssetImage("assets/images/pets.png"),
@@ -158,7 +152,7 @@ Widget buildHeader(BuildContext context) => Material(
               ),
               Text(
                 ' Leila Hut',
-                style: TextStyle(fontSize: 18, color: Colors.white),
+                style: GoogleFonts.vt323(fontSize: 18, color: Colors.white),
               ),
             ],
           ),
