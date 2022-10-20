@@ -1,16 +1,11 @@
-# carrossel
+# Projeto de Flutter
 
-A new Flutter project.
+### Projeto 'TinPet' realizado em dupla - Maria Eduarda Watanabe e Camila Silva
 
-## Getting Started
+# Informações
 
-This project is a starting point for a Flutter application.
+#### Seguir os caminhos de um aplicativo normal, com criação de conta, login, menu, menu hamburguer também.
 
-A few resources to get you started if this is your first Flutter project:
+#### Nem todas as telas do menu drawer estão sendo 'ativas' até o momento, você pode clickar no nome da pessoa, que vai abrir o perfil do usuário, onde poderá mudar informações, salvar e também uma função muito legal que foi de esconder/mostrar senha.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### O carrossel também não está sendo ativo, mas temos as animações funcionais !!
